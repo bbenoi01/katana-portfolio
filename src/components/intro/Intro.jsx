@@ -1,5 +1,6 @@
 import './intro.scss';
 import DownArrowIcon from '@mui/icons-material/KeyboardArrowDown';
+import TypeAnimation from 'react-type-animation';
 
 const Intro = () => {
 	return (
@@ -15,7 +16,20 @@ const Intro = () => {
 					<h1>DigitalKatana.dev</h1>
 					<h2>I'm Brandon Benoit</h2>
 					<h3>
-						Freelance <span>Developer</span>
+						Freelance{' '}
+						<TypeAnimation
+							cursor={true}
+							sequence={[
+								'Developer...',
+								2000,
+								'Designer...',
+								2000,
+								'Creator.',
+								2000,
+							]}
+							wrapper='span'
+							repeat={Infinity}
+						/>
 					</h3>
 				</div>
 				<a href='#portfolio'>
