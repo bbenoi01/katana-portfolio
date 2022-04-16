@@ -1,4 +1,7 @@
 import PhoneIcon from '@mui/icons-material/PhoneAndroid';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 export const headers = [
 	{
@@ -209,5 +212,35 @@ export const worksData = [
 		title: 'Branding',
 		desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, repellendus? Deserunt vel, ea architecto maiores iure officiis aperiam quo consectetur ducimus enim. Et in distinctio, perferendis maiores quibusdam odio ipsam.',
 		img: '/jacobs-world.jpg',
+	},
+];
+
+export const testimonialData = [
+	{
+		id: 1,
+		name: 'Tom Durden',
+		title: 'Senior Dev',
+		img: '/jacobs-world.jpg',
+		icon: <YouTubeIcon className='icon' />,
+		desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae laboriosam, amet non assumenda cupiditate officiis iure unde!',
+		featured: false,
+	},
+	{
+		id: 2,
+		name: 'Tyler Durden',
+		title: 'Baristia',
+		img: '/jacobs-world.jpg',
+		icon: <TwitterIcon className='icon' />,
+		desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae laboriosam, amet non assumenda cupiditate officiis iure unde!',
+		featured: true,
+	},
+	{
+		id: 3,
+		name: 'Jim Durden',
+		title: 'CEO',
+		img: '/jacobs-world.jpg',
+		icon: <InstagramIcon className='icon' />,
+		desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae laboriosam, amet non assumenda cupiditate officiis iure unde!',
+		featured: false,
 	},
 ];
