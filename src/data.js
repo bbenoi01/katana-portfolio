@@ -1,3 +1,5 @@
+import PhoneIcon from '@mui/icons-material/PhoneAndroid';
+
 export const headers = [
 	{
 		id: 'featured',
@@ -182,6 +184,30 @@ export const branding = [
 	{
 		id: 6,
 		title: 'Brand',
+		img: '/jacobs-world.jpg',
+	},
+];
+
+export const worksData = [
+	{
+		id: 1,
+		icon: <PhoneIcon className='icon' />,
+		title: 'Web Design',
+		desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, repellendus? Deserunt vel, ea architecto maiores iure officiis aperiam quo consectetur ducimus enim. Et in distinctio, perferendis maiores quibusdam odio ipsam.',
+		img: '/jacobs-world.jpg',
+	},
+	{
+		id: 2,
+		icon: <PhoneIcon className='icon' />,
+		title: 'Mobile Application',
+		desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, repellendus? Deserunt vel, ea architecto maiores iure officiis aperiam quo consectetur ducimus enim. Et in distinctio, perferendis maiores quibusdam odio ipsam.',
+		img: '/jacobs-world.jpg',
+	},
+	{
+		id: 3,
+		icon: <PhoneIcon className='icon' />,
+		title: 'Branding',
+		desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, repellendus? Deserunt vel, ea architecto maiores iure officiis aperiam quo consectetur ducimus enim. Et in distinctio, perferendis maiores quibusdam odio ipsam.',
 		img: '/jacobs-world.jpg',
 	},
 ];
